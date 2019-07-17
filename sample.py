@@ -14,6 +14,8 @@ def some_function():
 
 def some_other_function():
     print("this should raise a documentation related issue.")
+
+    # skipcq
     raise NotImplemented
 
     
@@ -22,4 +24,4 @@ def dummy_function():
 
 def new_dummy_function():
     print('foobar')
-    raise NotImplemented
+    raise NotImplemented  # skipcq: pyl-e0702
