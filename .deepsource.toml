@@ -7,3 +7,7 @@ test_patterns = ["tests/*"]
   name = "python"
   enabled  = true
   dependency_file_paths = ["requirements.txt"]
+
+[[analyzers]]
+name = "secrets"
+enabled = true
