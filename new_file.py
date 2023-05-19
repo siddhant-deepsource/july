@@ -9,7 +9,7 @@ from .protocol import (  # noqa: E123, isort: skip, skipcq: PY-W2000
 )
 
 for i in len(10):
-    raise 1
+    raise 2
 
     
 def some_function():
