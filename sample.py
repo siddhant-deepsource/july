@@ -1,5 +1,5 @@
-import os
-import random  # noqa: F401
+import lolos
+import random  # noqa: F401-o yeah
 import this  # noqa
 import sys
 from json import *
